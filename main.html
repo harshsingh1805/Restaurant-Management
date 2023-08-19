@@ -16,6 +16,14 @@
         <a href="#" class="nav-link">Menu</a>
         <a href="#" class="nav-link">About</a>
         <a href="#" class="nav-link">Contact</a>
+        <div class="restaurant-header-right-section">
+          <a class="cart-link header-link" href="checkout.html">
+            <img class="cart-icon" src="./images/cart-icon.png">
+            <div class="cart-quantity">3</div>
+            <div class="cart-text">Cart</div>
+          </a>
+        </div>
+        
       </nav>
     </div>
   </header>
@@ -42,7 +50,8 @@
           <h3 class="dish-name">Celery Bhaja</h3>
           <p class="dish-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <span class="dish-price">$10.99</span>
-          <button class="add-to-cart-button button-primary js-add-to-cart">
+          <button class="add-to-cart-button button-primary js-add-to-cart"
+          data-product-name="Celery Bhaja">
             Add to Cart
           </button>
         </div>
@@ -51,43 +60,48 @@
           <h3 class="dish-name">Paneer Napasanda</h3>
           <p class="dish-description">Nulla eget ipsum sed libero tristique dignissim ac non lorem.</p>
           <span class="dish-price">$12.99</span>
-          <button class="add-to-cart-button button-primary js-add-to-cart">
+          <button class="add-to-cart-button button-primary js-add-to-cart"
+          data-product-name="Panner Napasanda">
             Add to Cart
           </button>
         </div>
         <div class="dish">
           <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Dish 1">
-          <h3 class="dish-name">Celery Bhaja</h3>
+          <h3 class="dish-name">Celery Bhajaria</h3>
           <p class="dish-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <span class="dish-price">$10.99</span>
-          <button class="add-to-cart-button button-primary js-add-to-cart">
+          <button class="add-to-cart-button button-primary js-add-to-cart"
+          data-product-name="Celery Bhajaria">
             Add to Cart
           </button>
         </div>
         <div class="dish">
           <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Dish 2">
-          <h3 class="dish-name">Paneer Napasanda</h3>
+          <h3 class="dish-name">Paneer Bhurji</h3>
           <p class="dish-description">Nulla eget ipsum sed libero tristique dignissim ac non lorem.</p>
           <span class="dish-price">$12.99</span>
-          <button class="add-to-cart-button button-primary js-add-to-cart">
+          <button class="add-to-cart-button button-primary js-add-to-cart"
+          data-product-name="Panner Bhurji">
             Add to Cart
           </button>
         </div>
         <div class="dish">
           <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Dish 1">
-          <h3 class="dish-name">Celery Bhaja</h3>
+          <h3 class="dish-name">Celery Bhujia</h3>
           <p class="dish-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <span class="dish-price">$10.99</span>
-          <button class="add-to-cart-button button-primary js-add-to-cart">
+          <button class="add-to-cart-button button-primary js-add-to-cart"
+          data-product-name="Celery Bhujia">
             Add to Cart
           </button>
         </div>
         <div class="dish">
           <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Dish 2">
-          <h3 class="dish-name">Paneer Napasanda</h3>
+          <h3 class="dish-name">Paneer Masala</h3>
           <p class="dish-description">Nulla eget ipsum sed libero tristique dignissim ac non lorem.</p>
           <span class="dish-price">$12.99</span>
-          <button class="add-to-cart-button button-primary js-add-to-cart">
+          <button class="add-to-cart-button button-primary js-add-to-cart"
+          data-product-name="Panner Masala">
             Add to Cart
           </button>
         </div>
@@ -147,7 +161,7 @@
       <p>&copy; 2023 The Good Indian. All rights reserved.</p>
     </div>
   </footer>
-
+<script src="./data/cart.js"></script>
 <script src="./javascript.js"></script>
 </body>
 </html>

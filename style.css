@@ -47,7 +47,7 @@ img {
     position: absolute;
     float: right;
     top:35px;
-    right:50px;
+    right:20px;
   }
  
   .nav-link {
@@ -137,6 +137,20 @@ img {
     margin: 10px;
     border-radius: 50px;
   }
+  .restaurant-header-right-section {
+    width: 4px;
+    flex-shrink: 20;
+    display: flex;
+    justify-content: right;
+  }
+  
+  
+  
+  .cart-icon {
+    width: 40px;
+  }
+  
+  
   
  
   /* Footer styles */
